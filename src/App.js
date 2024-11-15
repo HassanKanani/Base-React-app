@@ -1,11 +1,10 @@
-import CallBacktest from "./CallBacktest";
-import ExpensiveCalculation from "./ExpensiveCalculation";
+import Home from "./test/Home";
+
 
 function App() {
   return (
     <div className="App">
-        {/* <ExpensiveCalculation/> */}
-        <CallBacktest/>
+     <Home/>
     </div>
   );
 }
