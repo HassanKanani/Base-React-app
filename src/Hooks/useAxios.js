@@ -21,6 +21,7 @@ const useAxios = ({ url, method = 'GET', headers = {}, body = null }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
+        debugger
         setLoading(true);
         const response = await axios({
           url,
